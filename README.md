@@ -8,7 +8,7 @@ This is a heroku deployment of [v2ray](https://github.com/v2ray/v2ray-core) Than
 2. Register at 	[heroku](heroku.com) if you havn't already
 3. click on [![Heroku Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/1nv0k32/heroku-v2ray) button.
 4. enter `app_name` (choose any free name) and `uuid` achived from step 2 for `AlterID` you can type 64.
-5. update client config file(`config_client.json`) and rename it to `client.json` for your client.
+5. update client config file(`config_client.json`) and rename it to `config.json` for your client.
     - update `address` and `id` value. (It's shown using `[]` symbols for example if your `app_name` is `myapp` then you can replace `[app_name]` with `myapp`)
     - (Optional) you can change `port` to any desired value (default value = `1080`)
 6. Download and install [V2ray-core](https://github.com/v2ray/v2ray-core/releases).
