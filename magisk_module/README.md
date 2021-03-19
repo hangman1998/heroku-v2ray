@@ -11,7 +11,7 @@ This is a clone of [V2ray Magisk Module](https://github.com/Magisk-Modules-Repo/
 `export V2RAY_LOCATION_ASSET=/data/v2ray; v2ray -test -config /data/v2ray/config.json`
 4. enjoy!
 
-After successful setup you can adjust Telegram, Twitter and all Apps witch support Proxy to use v2ray.(default ip:port for your android phone is `127.0.0.1:1080`)
+After successful setup you can adjust Telegram, Twitter and all Apps which support Proxy on ip:port.(default ip:port for your android phone is `127.0.0.1:1080`)
 **Note:** you can even use V2ray proxy in other devices of your network but with considering these two notes:
 1. all devices including your android phone need to be in the same subnet.
-2. you must listen ip to `0.0.0.0` not `127.0.0.1`
+2. you must set listen ip to `0.0.0.0` not `127.0.0.1`.
