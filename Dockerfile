@@ -1,10 +1,9 @@
-FROM v2fly/v2fly-core:latest
+FROM teddysun/xray:latest
 
 RUN apk add --no-cache gettext
 
-COPY config_server.json /etc/v2ray/config.json.var
+COPY server.json /etc/xray/config.json.var
 
 COPY entry.sh /entry.sh
 RUN chmod +x /entry.sh
 ENTRYPOINT ["/entry.sh"]
-

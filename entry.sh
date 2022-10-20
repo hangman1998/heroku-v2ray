@@ -1,5 +1,4 @@
 export VARS='$PORT:$UUID:$AlterID'
-envsubst $VARS < /etc/v2ray/config.json.var > /etc/v2ray/config.json
+envsubst $VARS < /etc/xray/config.json.var > /etc/xray/config.json
 
-exec /usr/bin/v2ray -config /etc/v2ray/config.json
-
+exec /usr/bin/xray -config /etc/xray/config.json
